@@ -7,7 +7,6 @@
  **/
 int main(void)
 {
-
         int a;
 	long int b;
 	long long int c;
@@ -24,6 +23,5 @@ int main(void)
 
 	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(float));
 
-	return (0);
-	
+	return (0);	
 }
