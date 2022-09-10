@@ -2,8 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - outputs the last digit of the given random number
-the random number is moved to the variable n l for lastdigit
+* main - Prints greater than, less than or zero
 Return: Always 0 (Success)
 */
 int main(void)
@@ -12,7 +11,7 @@ int main(void)
 	int l;
 
 	srand(time(0));
-	n = rand() - RAND_MAX /2;
+	n = rand() - RAND_MAX / 2;
 	l = n % 10;
 
 	if (l > 5)
