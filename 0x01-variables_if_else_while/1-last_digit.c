@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
 * main - Prints greater than, less than or zero
-Return: Always 0 (Success)
+Return: Always(Success)
 */
 int main(void)
 {
