@@ -2,8 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - Prints greater than, less than or zero
-* Return: Always(Success)
+* main - Prints the last digit of a randomly generated number.
+* Description: Code checks whether it is greater than 5, less than 6 or 0.
+* Return: 0.
 */
 int main(void)
 {
