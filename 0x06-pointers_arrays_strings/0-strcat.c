@@ -2,7 +2,7 @@
 
 /**
 *_strcat - concatenates the string pointed to by @src to
-*the end of the string pointed to by @dest
+* the end of the string pointed to by @dest
 *@dest: Srting that will be appended
 *@src: String to be concatenated upon
 *
@@ -20,5 +20,5 @@ char *_strcat(char *dest, char *src)
 	for (index = 0; src[index]; index++)
 		dest[dest_len++] = src[index];
 
-	return(dest);
+	return (dest);
 }
