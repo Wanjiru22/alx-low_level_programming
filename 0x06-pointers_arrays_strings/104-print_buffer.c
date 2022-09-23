@@ -4,7 +4,7 @@
 * inputted number of bytes from a buffer.
 * Prints 10 bytes per line.
 * Starts with the position of first byte in hexadecimal (8 chars),
-* strating with 0
+* strating with '0'
 * Each line shows the hexadecimal content (2 chars) of the buffer,
 * 2 bytes at a time, seperated by a space.
 * Each line shows the content by a space.
