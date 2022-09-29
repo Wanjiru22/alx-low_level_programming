@@ -11,7 +11,7 @@ int factorial(int n);
 int _pow_recursion(int x, int y);
 int _sqrt_recursion(int n);
 int is_prime_number(int n);
-int _sqr(int n, int x);
+int _sqrt(int n, int x);
 int _is_prime(int n, int start);
 int is_palindrome(char *s);
 void check(char *s, int start, int end, int *flag);
