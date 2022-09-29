@@ -16,13 +16,13 @@ int is_prime_number(int n)
 }
 
 /**
-* _is_prime - returns the 1 if n is prime
+* is_prime - returns the 1 if n is prime
 * @n: number to be checked
 *
 * Return: 1 if n is prime, 0 otherwise
 */
 
-int _is_prime(int n, int start)
+int is_prime(int n, int start)
 {
 	if (start <= 1)
 		return (1);
