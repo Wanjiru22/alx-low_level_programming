@@ -18,11 +18,11 @@ int main(int argc, char *argv[])
 	{
 		for (j = 0; argv[i][j]; j++)
 		{
-			if (isigit(argv[i][j]) == 0)
-				{
-					puts("Error");
-					return (1);
-				}
+			if (isdigit(argv[i][j]) == 0)
+			{
+				puts("Error");
+				return (1);
+			}
 		}
 	}
 	for (i = 1; i < argc; i++)
