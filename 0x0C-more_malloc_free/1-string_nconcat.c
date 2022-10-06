@@ -5,7 +5,7 @@
 * string_nconcat - concantenates two strings
 * @s1: first string to copy
 * @s2: second string to copy
-* @N; number of bytes of s2 to copy
+* @n: number of bytes of s2 to copy
 *
 * Return: char pointer to newly allocated place in memory
 */
