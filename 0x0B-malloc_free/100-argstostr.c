@@ -7,7 +7,6 @@
 * @av: pointer array
 * Return: str
 */
-
 char *argstostr(int ac, char **av)
 {
 	int i, n, r = 0, l = 0;
@@ -23,7 +22,7 @@ char *argstostr(int ac, char **av)
 	}
 	l += ac;
 
-	str = malloc(sizeof(char) + l + 1);
+	str = malloc(sizeof(char) * l + 1);
 	if (str == NULL)
 		return (NULL);
 	for (i = 0; i < ac; i++)
