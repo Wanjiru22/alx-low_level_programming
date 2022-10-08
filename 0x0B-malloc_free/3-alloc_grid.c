@@ -3,8 +3,8 @@
 
 /**
 * alloc_grid - nested loop to make grid
-* @Width: array's width
-* @heigt: array's height
+* @width: array's width
+* @height: array's height
 * Return: pointer to array
 */
 
