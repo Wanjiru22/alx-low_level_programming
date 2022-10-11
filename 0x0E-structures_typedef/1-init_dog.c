@@ -5,6 +5,7 @@
 * @d: pointer to structure
 * @name: ponter to th name of the dog
 * @age: age of dog
+* @owner: poiner to owner pof dog
 *
 * Return: void
 */
