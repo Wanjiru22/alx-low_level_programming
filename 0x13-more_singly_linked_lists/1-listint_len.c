@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
-* lisint_len - Return number of elements linked
+* listint_len - Return number of elements
+* in a linked listint_t list.
 * @h: A ponter to the head of the linked list.
 *
 * Return: The number of elements in the listint_t list.
